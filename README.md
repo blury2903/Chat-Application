@@ -26,13 +26,14 @@ Upon launching, the program acts as a UNIX shell and provides the following comm
 
 3. **myport**: Display the port on which this process is listening for incoming connections.
 
-4. **connect <destination> <port_no>**: Establish a new TCP connection to the specified destination at the specified port.
+4. **connect `<destination>` `<port_no>`**: Establish a new TCP connection to the specified destination at the specified port.
 
 5. **list**: Display a numbered list of all the connections this process is part of.
 
-6. **terminate <connection_id>**: Terminate the connection with connection id from connection list.
+6. **terminate `<connection_id>`**: Terminate the connection with connection id from connection list.
 
-7. **send <connection_id>** **<message>**: Send a message to the connection with connection id from connection list.
+7. **send `<connection_id>` `<message>`**: Send a message to the connection with connection id from connection list.
 
 8. **exit**: Close all connections and terminate this process.
+
 
